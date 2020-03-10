@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 
 namespace Selenium
 {
-    internal class TestDemoSelenium
+     class TestDemoSelenium
     {
 
         IWebDriver driver;
@@ -19,7 +19,7 @@ namespace Selenium
         [Test]
         public void test()
         {
-            driver.Url = "http://www.google.co.in";
+            driver.Url = "http://www.google.com/";
 
         }
 
@@ -28,15 +28,16 @@ namespace Selenium
         {
             driver.Close();
         }
-
-          
-
-
-       
-           
-
-           
-
         
+
+
+
+
+
+
+
+
+
+
     }
 }
