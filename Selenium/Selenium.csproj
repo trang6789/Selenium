@@ -56,14 +56,20 @@
   <ItemGroup>
     <Compile Include="Email.cs" />
     <Compile Include="InputFieldcs.cs" />
+    <Compile Include="LoginPage.cs" />
+    <Compile Include="POM\LoginPageContains.cs" />
+    <Compile Include="POM\LoginPageHelper.cs" />
+    <Compile Include="POM\LoginPageLocator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDemoSelenium.cs" />
+    <Compile Include="Testscript\TestLogin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
